@@ -1,0 +1,3 @@
+eatitproject.eatitproject.controller.SnackController#getAllSnacks()Ljava/util/List;
+==
+getAllSnacks eatitproject.eatitproject.services.SnackService#getAllSnacks()Ljava/util/List;

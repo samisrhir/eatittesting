@@ -1,0 +1,21 @@
+
+Seatitproject.eatitproject.controller.SnackController#getAllSnacks()Ljava/util/List;~
+t/C:/Users/vansa/OneDrive/Bureau/eatitproject/src/main/java/eatitproject/eatitproject/controller/SnackController.java (#"1*Á
+1 (²
+¯
+ (5
+%0/eatitproject.eatitproject.services.SnackService"__id*f
+
+__unknown_file (J*H6
+4eatitproject.eatitproject.controller.SnackController"
+snackServiceØÕ
+ (*
+%1java.util.List"Neatitproject.eatitproject.services.SnackService#getAllSnacks()Ljava/util/List;*S
+
+__unknown_file (7
+5
+%0/eatitproject.eatitproject.services.SnackService2getAllSnacks()""
+ (+
+
+%1java.util.ListB86
+4eatitproject.eatitproject.controller.SnackControllerH

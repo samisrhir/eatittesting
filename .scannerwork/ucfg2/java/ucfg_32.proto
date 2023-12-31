@@ -1,0 +1,36 @@
+
+featitproject.eatitproject.services.SnackServiceImpl#getSnackById(Ljava/lang/Long;)Ljava/util/Optional;}
+s/C:/Users/vansa/OneDrive/Bureau/eatitproject/src/main/java/eatitproject/eatitproject/services/SnackServiceImpl.java& &('"startingBlock*þ
+startingBlock&' &(0‡
+„
+% %(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*2
+
+__unknown_file (
+
+idjava.lang.LongT
+R
+&- &(/
+idjava.lang.Long"__annotation*"
+
+__unknown_file (
+
+%1*
+1*Ý
+1' '(¹
+¶
+' '(:
+%04eatitproject.eatitproject.repository.SnackRepository"__id*h
+
+__unknown_file (L*J5
+3eatitproject.eatitproject.services.SnackServiceImpl"
+snackRepository"
+' '(,
+"": 
+&( &(/
+idjava.lang.LongB75
+3eatitproject.eatitproject.services.SnackServiceImplH

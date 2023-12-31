@@ -1,0 +1,200 @@
+
+¢eatitproject.eatitproject.controller.SnackController#updateSnack(Ljava/lang/Long;Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;~
+t/C:/Users/vansa/OneDrive/Bureau/eatitproject/src/main/java/eatitproject/eatitproject/controller/SnackController.java' '("startingBlock*ﬂ
+2+" +(/±Æ
++" +(5,
+%3&eatitproject.eatitproject.models.Snack"*java.util.Optional#get()Ljava/lang/Object;*A
+
+__unknown_file (%
+#
+existingSnackjava.util.Optional2get()ò
+ï
++ +(67
+snackToUpdate&eatitproject.eatitproject.models.Snack"__id*J
+
+__unknown_file (.
+,
+%3&eatitproject.eatitproject.models.Snack–Õ
+,% ,(>
+%4java.lang.String"Eeatitproject.eatitproject.models.Snack#getPicture()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+updatedSnack&eatitproject.eatitproject.models.Snack2getPicture()éã
+, ,(?
+
+%5void"Featitproject.eatitproject.models.Snack#setPicture(Ljava/lang/String;)V*U
+
+__unknown_file (9
+7
+snackToUpdate&eatitproject.eatitproject.models.Snack*4
+
+__unknown_file (
+
+%4java.lang.String2setPicture(Ljava/lang/String;)ÿ’
+-) -(F
+%6java.lang.String"Ieatitproject.eatitproject.models.Snack#getDescription()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+updatedSnack&eatitproject.eatitproject.models.Snack2getDescription()ñì
+- -(G
+
+%7void"Jeatitproject.eatitproject.models.Snack#setDescription(Ljava/lang/String;)V*U
+
+__unknown_file (9
+7
+snackToUpdate&eatitproject.eatitproject.models.Snack*4
+
+__unknown_file (
+
+%6java.lang.String2"setDescription(Ljava/lang/String;)∞≠
+.# .(:
+%8float"2eatitproject.eatitproject.models.Snack#getPrice()F*T
+
+__unknown_file (8
+6
+updatedSnack&eatitproject.eatitproject.models.Snack2
+getPrice()›⁄
+. .(;
+
+%9void"3eatitproject.eatitproject.models.Snack#setPrice(F)V*U
+
+__unknown_file (9
+7
+snackToUpdate&eatitproject.eatitproject.models.Snack*)
+
+__unknown_file (
+
+%8float2setPrice(F)≥
+∞
+0 0(6
+%10/eatitproject.eatitproject.services.SnackService"__id*f
+
+__unknown_file (J*H6
+4eatitproject.eatitproject.controller.SnackController"
+snackService¢ü
+0 0(3-
+%11&eatitproject.eatitproject.models.Snack"Üeatitproject.eatitproject.services.SnackService#save(Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;*T
+
+__unknown_file (8
+6
+%10/eatitproject.eatitproject.services.SnackService*U
+
+__unknown_file (9
+7
+snackToUpdate&eatitproject.eatitproject.models.Snack2.save(Leatitproject/eatitproject/models/Snack;)";
+0 0(4/
+-
+%11&eatitproject.eatitproject.models.Snack*Ç
+3(( ((4≤
+Ø
+(( ((45
+%0/eatitproject.eatitproject.services.SnackService"__id*f
+
+__unknown_file (J*H6
+4eatitproject.eatitproject.controller.SnackController"
+snackService¥±
+(( ((E
+%1java.util.Optional"beatitproject.eatitproject.services.SnackService#getSnackById(Ljava/lang/Long;)Ljava/util/Optional;*S
+
+__unknown_file (7
+5
+%0/eatitproject.eatitproject.services.SnackService*2
+
+__unknown_file (
+
+idjava.lang.Long2getSnackById(Ljava/lang/Long;)o
+m
+( ((F#
+existingSnackjava.util.Optional"__id*6
+
+__unknown_file (
+
+%1java.util.Optionalçä
+* *(%
+%2boolean"java.util.Optional#isPresent()Z*A
+
+__unknown_file (%
+#
+existingSnackjava.util.Optional2isPresent()*
+2
+1*ä
+startingBlock' '(Z
+}
+& &(
+%12"
+__annotate**
+
+__unknown_file (
+
+PutMapping*2
+
+__unknown_file (
+
+idjava.lang.LongÅ
+
+' '(0
+%13"
+__annotate*,
+
+__unknown_file (
+PathVariable*2
+
+__unknown_file (
+
+idjava.lang.Longz
+x
+'6 '(8
+idjava.lang.Long"__annotation*#
+
+__unknown_file (
+
+%12*#
+
+__unknown_file (
+
+%13¢
+ü
+& &(
+%14"
+__annotate**
+
+__unknown_file (
+
+PutMapping*T
+
+__unknown_file (8
+6
+updatedSnack&eatitproject.eatitproject.models.Snack£
+†
+': '(F
+%15"
+__annotate*+
+
+__unknown_file (
+RequestBody*T
+
+__unknown_file (8
+6
+updatedSnack&eatitproject.eatitproject.models.Snackù
+ö
+'M '(Y6
+updatedSnack&eatitproject.eatitproject.models.Snack"__annotation*#
+
+__unknown_file (
+
+%14*#
+
+__unknown_file (
+
+%15*
+3*!
+12 2("
+2 2(
+"": 
+' '(9
+idjava.lang.Long:B
+': '(Y6
+updatedSnack&eatitproject.eatitproject.models.SnackB86
+4eatitproject.eatitproject.controller.SnackControllerH

@@ -1,0 +1,3 @@
+eatitproject.eatitproject.controller.CommandeController#getAllCommandes()Ljava/util/List;
+==
+getAllCommandes eatitproject.eatitproject.services.CommandeService#getAllCommandes()Ljava/util/List;

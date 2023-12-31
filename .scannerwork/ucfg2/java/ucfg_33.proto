@@ -1,0 +1,62 @@
+
+’eatitproject.eatitproject.controller.SnackController#createSnack(Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;~
+t/C:/Users/vansa/OneDrive/Bureau/eatitproject/src/main/java/eatitproject/eatitproject/controller/SnackController.java ("startingBlock*ñ
+startingBlock (6›
+˜
+ (
+%2"
+__annotate*+
+
+__unknown_file (
+PostMapping*M
+
+__unknown_file (1
+/
+snack&eatitproject.eatitproject.models.Snack›
+˜
+ ()
+%3"
+__annotate*+
+
+__unknown_file (
+RequestBody*M
+
+__unknown_file (1
+/
+snack&eatitproject.eatitproject.models.Snack”
+‘
+0 (5/
+snack&eatitproject.eatitproject.models.Snack"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*™
+1 (²
+¯
+ (5
+%0/eatitproject.eatitproject.services.SnackService"__id*f
+
+__unknown_file (J*H6
+4eatitproject.eatitproject.controller.SnackController"
+snackService˜•
+ (',
+%1&eatitproject.eatitproject.models.Snack"†eatitproject.eatitproject.services.SnackService#save(Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;*S
+
+__unknown_file (7
+5
+%0/eatitproject.eatitproject.services.SnackService*M
+
+__unknown_file (1
+/
+snack&eatitproject.eatitproject.models.Snack2.save(Leatitproject/eatitproject/models/Snack;)":
+ ((.
+,
+%1&eatitproject.eatitproject.models.Snack:;
+ (5/
+snack&eatitproject.eatitproject.models.SnackB86
+4eatitproject.eatitproject.controller.SnackControllerH

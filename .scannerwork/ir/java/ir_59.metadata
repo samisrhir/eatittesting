@@ -1,0 +1,3 @@
+eatitproject.eatitproject.controller.CommandeController#updateCommande(Ljava/lang/Long;Leatitproject/eatitproject/models/Commande;)Leatitproject/eatitproject/models/Commande;
+==
+updateCommande eatitproject.eatitproject.services.CommandeService#updateCommande(Leatitproject/eatitproject/models/Commande;)Leatitproject/eatitproject/models/Commande;

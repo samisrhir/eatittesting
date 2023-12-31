@@ -1,0 +1,62 @@
+
+ûeatitproject.eatitproject.controller.CommandeController#createCommande(Leatitproject/eatitproject/models/Commande;)Leatitproject/eatitproject/models/Commande;Å
+w/C:/Users/vansa/OneDrive/Bureau/eatitproject/src/main/java/eatitproject/eatitproject/controller/CommandeController.java! !(""startingBlock*Ù
+startingBlock!" !(=ú
+ô
+   (
+%2"
+__annotate*+
+
+__unknown_file (
+PostMapping*N
+
+__unknown_file (2
+0
+cmd)eatitproject.eatitproject.models.Commandeú
+ô
+!# !(/
+%3"
+__annotate*+
+
+__unknown_file (
+RequestBody*N
+
+__unknown_file (2
+0
+cmd)eatitproject.eatitproject.models.Commandeï
+í
+!9 !(<0
+cmd)eatitproject.eatitproject.models.Commande"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*Ã
+1" "(ª
+∏
+" "(8
+%02eatitproject.eatitproject.services.CommandeService"__id*l
+
+__unknown_file (P*N9
+7eatitproject.eatitproject.controller.CommandeController"
+commandeServiceøº
+" "(2/
+%1)eatitproject.eatitproject.models.Commande"ôeatitproject.eatitproject.services.CommandeService#createCommande(Leatitproject/eatitproject/models/Commande;)Leatitproject/eatitproject/models/Commande;*V
+
+__unknown_file (:
+8
+%02eatitproject.eatitproject.services.CommandeService*N
+
+__unknown_file (2
+0
+cmd)eatitproject.eatitproject.models.Commande2;createCommande(Leatitproject/eatitproject/models/Commande;)"=
+" "(31
+/
+%1)eatitproject.eatitproject.models.Commande:<
+!# !(<0
+cmd)eatitproject.eatitproject.models.CommandeB;9
+7eatitproject.eatitproject.controller.CommandeControllerH

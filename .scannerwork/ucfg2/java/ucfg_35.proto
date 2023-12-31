@@ -1,0 +1,63 @@
+
+ceatitproject.eatitproject.controller.SnackController#getSnack(Ljava/lang/Long;)Ljava/util/Optional;~
+t/C:/Users/vansa/OneDrive/Bureau/eatitproject/src/main/java/eatitproject/eatitproject/controller/SnackController.java (#"startingBlock*›
+startingBlock# (@~
+|
+ (
+%2"
+__annotate**
+
+__unknown_file (
+
+GetMapping*2
+
+__unknown_file (
+
+idjava.lang.Long€
+~
+$ (7
+%3"
+__annotate*,
+
+__unknown_file (
+PathVariable*2
+
+__unknown_file (
+
+idjava.lang.Longx
+v
+= (?
+idjava.lang.Long"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*¡
+1 (²
+¯
+ (5
+%0/eatitproject.eatitproject.services.SnackService"__id*f
+
+__unknown_file (J*H6
+4eatitproject.eatitproject.controller.SnackController"
+snackService´±
+ (,
+%1java.util.Optional"beatitproject.eatitproject.services.SnackService#getSnackById(Ljava/lang/Long;)Ljava/util/Optional;*S
+
+__unknown_file (7
+5
+%0/eatitproject.eatitproject.services.SnackService*2
+
+__unknown_file (
+
+idjava.lang.Long2getSnackById(Ljava/lang/Long;)"&
+ (-
+
+%1java.util.Optional: 
+$ (?
+idjava.lang.LongB86
+4eatitproject.eatitproject.controller.SnackControllerH

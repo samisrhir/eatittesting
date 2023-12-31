@@ -1,0 +1,12 @@
+eatitproject.eatitproject.controller.SnackController#updateSnack(Ljava/lang/Long;Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;
+java.util.Optional#isPresent()Z
+java.util.Optional#get()Ljava/lang/Object;
+==
+save eatitproject.eatitproject.services.SnackService#save(Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;
+getSnackById eatitproject.eatitproject.services.SnackService#getSnackById(Ljava/lang/Long;)Ljava/util/Optional;
+setPrice eatitproject.eatitproject.models.Snack#setPrice(F)V
+getPicture eatitproject.eatitproject.models.Snack#getPicture()Ljava/lang/String;
+getPrice eatitproject.eatitproject.models.Snack#getPrice()F
+getDescription eatitproject.eatitproject.models.Snack#getDescription()Ljava/lang/String;
+setDescription eatitproject.eatitproject.models.Snack#setDescription(Ljava/lang/String;)V
+setPicture eatitproject.eatitproject.models.Snack#setPicture(Ljava/lang/String;)V

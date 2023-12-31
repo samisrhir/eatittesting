@@ -1,0 +1,21 @@
+
+Yeatitproject.eatitproject.controller.CommandeController#getAllCommandes()Ljava/util/List;Å
+w/C:/Users/vansa/OneDrive/Bureau/eatitproject/src/main/java/eatitproject/eatitproject/controller/CommandeController.java ()"1*÷
+1 (ª
+∏
+ (8
+%02eatitproject.eatitproject.services.CommandeService"__id*l
+
+__unknown_file (P*N9
+7eatitproject.eatitproject.controller.CommandeController"
+commandeService‰·
+ (0
+%1java.util.List"Teatitproject.eatitproject.services.CommandeService#getAllCommandes()Ljava/util/List;*V
+
+__unknown_file (:
+8
+%02eatitproject.eatitproject.services.CommandeService2getAllCommandes()""
+ (1
+
+%1java.util.ListB;9
+7eatitproject.eatitproject.controller.CommandeControllerH

@@ -1,0 +1,3 @@
+eatitproject.eatitproject.controller.SnackController#createSnack(Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;
+==
+save eatitproject.eatitproject.services.SnackService#save(Leatitproject/eatitproject/models/Snack;)Leatitproject/eatitproject/models/Snack;

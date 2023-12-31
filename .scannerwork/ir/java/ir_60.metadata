@@ -1,0 +1,3 @@
+eatitproject.eatitproject.controller.CommandeController#deleteCommande(Ljava/lang/Long;)V
+==
+deleteCommande eatitproject.eatitproject.services.CommandeService#deleteCommande(Ljava/lang/Long;)V
