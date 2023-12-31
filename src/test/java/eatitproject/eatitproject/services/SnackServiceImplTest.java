@@ -26,13 +26,11 @@ public class SnackServiceImplTest {
 
     @BeforeEach
     void setUp() {
-        // Initialize mocks and inject them into the service
         MockitoAnnotations.openMocks(this);
     }
 
     @Test
     void testSaveSnack() {
-        // Given
         Snack snackToSave = new Snack();
         snackToSave.setId(1L);
         snackToSave.setCategory("Test Category");
@@ -40,10 +38,10 @@ public class SnackServiceImplTest {
 
         when(snackRepository.save(snackToSave)).thenReturn(snackToSave);
 
-        // When
+     
         Snack savedSnack = snackService.save(snackToSave);
 
-        // Then
+     
         assertNotNull(savedSnack);
         assertEquals(1L, savedSnack.getId());
         assertEquals("Test Category", savedSnack.getCategory());
@@ -65,10 +63,10 @@ public class SnackServiceImplTest {
 
         when(snackRepository.findAll()).thenReturn(Arrays.asList(snack1, snack2));
 
-        // When
+      
         List<Snack> allSnacks = snackService.getAllSnacks();
 
-        // Then
+     
         assertNotNull(allSnacks);
         assertEquals(2, allSnacks.size());
         assertEquals("Category 1", allSnacks.get(0).getCategory());
@@ -77,19 +75,19 @@ public class SnackServiceImplTest {
 
     @Test
     void testDeleteSnackById() {
-        // Given
+     
         Long snackIdToDelete = 1L;
 
-        // When
+       
         snackService.deleteSnackById(snackIdToDelete);
 
-        // Then
+      
         verify(snackRepository, times(1)).deleteById(snackIdToDelete);
     }
 
     @Test
     void testGetSnackById() {
-        // Given
+      
         Long snackId = 1L;
         Snack expectedSnack = new Snack();
         expectedSnack.setId(snackId);
@@ -98,10 +96,10 @@ public class SnackServiceImplTest {
 
         when(snackRepository.findById(snackId)).thenReturn(Optional.of(expectedSnack));
 
-        // When
+      
         Optional<Snack> retrievedSnack = snackService.getSnackById(snackId);
 
-        // Then
+       
         assertTrue(retrievedSnack.isPresent());
         assertEquals(snackId, retrievedSnack.get().getId());
         assertEquals("Test Category", retrievedSnack.get().getCategory());
