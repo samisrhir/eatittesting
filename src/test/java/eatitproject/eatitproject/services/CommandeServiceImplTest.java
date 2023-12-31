@@ -32,7 +32,6 @@ public class CommandeServiceImplTest {
 
     @Test
     void testGetAllCommandes() {
-        // Given
         Commande commande1 = new Commande();
         commande1.setId(1L);
         commande1.setTotal(20.0);
@@ -45,10 +44,8 @@ public class CommandeServiceImplTest {
 
         when(commandeRepository.findAll()).thenReturn(Arrays.asList(commande1, commande2));
 
-        // When
         List<Commande> allCommandes = commandeService.getAllCommandes();
 
-        // Then
         assertNotNull(allCommandes);
         assertEquals(2, allCommandes.size());
         assertEquals("Pending", allCommandes.get(0).getState());
@@ -57,7 +54,6 @@ public class CommandeServiceImplTest {
 
     @Test
     void testGetCommandeById() {
-        // Given
         Long commandeId = 1L;
         Commande expectedCommande = new Commande();
         expectedCommande.setId(commandeId);
@@ -65,11 +61,8 @@ public class CommandeServiceImplTest {
         expectedCommande.setState("Pending");
 
         when(commandeRepository.findById(commandeId)).thenReturn(Optional.of(expectedCommande));
-
-        // When
         Commande retrievedCommande = commandeService.getCommandeById(commandeId);
 
-        // Then
         assertNotNull(retrievedCommande);
         assertEquals(commandeId, retrievedCommande.getId());
         assertEquals(20.0, retrievedCommande.getTotal());
@@ -78,7 +71,6 @@ public class CommandeServiceImplTest {
 
     @Test
     void testUpdateCommande() {
-        // Given
         Commande commandeToUpdate = new Commande();
         commandeToUpdate.setId(1L);
         commandeToUpdate.setTotal(25.0);
@@ -86,10 +78,8 @@ public class CommandeServiceImplTest {
 
         when(commandeRepository.save(commandeToUpdate)).thenReturn(commandeToUpdate);
 
-        // When
         Commande updatedCommande = commandeService.updateCommande(commandeToUpdate);
 
-        // Then
         assertNotNull(updatedCommande);
         assertEquals(1L, updatedCommande.getId());
         assertEquals(25.0, updatedCommande.getTotal());
@@ -98,19 +88,15 @@ public class CommandeServiceImplTest {
 
     @Test
     void testDeleteCommande() {
-        // Given
         Long commandeIdToDelete = 1L;
 
-        // When
         commandeService.deleteCommande(commandeIdToDelete);
 
-        // Then
         verify(commandeRepository, times(1)).deleteById(commandeIdToDelete);
     }
 
     @Test
     void testCreateCommande() {
-        // Given
         Commande newCommande = new Commande();
         newCommande.setId(1L);
         newCommande.setTotal(30.0);
@@ -118,10 +104,8 @@ public class CommandeServiceImplTest {
 
         when(commandeRepository.save(newCommande)).thenReturn(newCommande);
 
-        // When
         Commande createdCommande = commandeService.createCommande(newCommande);
 
-        // Then
         assertNotNull(createdCommande);
         assertEquals(1L, createdCommande.getId());
         assertEquals(30.0, createdCommande.getTotal());
